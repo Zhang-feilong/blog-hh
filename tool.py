@@ -130,7 +130,7 @@ def handle_photo():
     list_info.reverse()  # 翻转
     final_dict = {"list": list_info}
 
-    with open("https://github.com/Zhang-feilong/blog-hh/tree/master/blog_photos_copy/data.json","w") as fp:
+    with open("F:\\blog-hh\\blog_photos_copy\\data.json","w") as fp:
         json.dump(final_dict, fp)
 
 def cut_photo():
